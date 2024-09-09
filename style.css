@@ -1,3 +1,21 @@
 body {
   background-color: #fff8e8;
 }
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+form input,
+label {
+  margin-top: 4vh;
+}
